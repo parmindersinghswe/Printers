@@ -1,5 +1,5 @@
 .vs/ 
-Printer/bin/ 
-Printer/obj/ 
+Printer.MAUI.Blazor.Test/bin/ 
+Printer.MAUI.Blazor.Test/obj/ 
 Printer.Library/bin/ 
 Printer.Library/obj/ 
