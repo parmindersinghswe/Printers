@@ -1,8 +1,6 @@
-﻿namespace Printer.Library.Interfaces
-{
-    public interface IPrintable
-    {
-        string GetContent();
-    }
+﻿namespace Printer.Library.Interfaces;
 
+public interface IPrintable
+{
+    string GetContent();
 }

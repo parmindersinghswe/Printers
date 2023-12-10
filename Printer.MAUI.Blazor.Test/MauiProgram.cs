@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+﻿using Microsoft.Extensions.Logging;
 
+namespace Printer.MAUI.Blazor.Test;
 
-namespace Printer.MAUI.Blazor.Test
-{
     public static class MauiProgram
     {
         public static MauiApp CreateMauiApp()
@@ -16,13 +15,12 @@ namespace Printer.MAUI.Blazor.Test
                 });
 
             builder.Services.AddMauiBlazorWebView();
-#if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
-#endif
 
-           //Dependency Injections
+#if DEBUG
+    		builder.Services.AddBlazorWebViewDeveloperTools();
+    		builder.Logging.AddDebug();
+#endif
 
             return builder.Build();
         }
     }
-}

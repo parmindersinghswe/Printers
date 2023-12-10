@@ -1,7 +1,6 @@
-﻿namespace Printer.Library.Interfaces
+﻿namespace Printer.Library.Interfaces;
+
+public interface IPrinter : IDisposable
 {
-    public interface IPrinter : IDisposable
-    {
-        void Print(IPrintable printable);
-    }
+    void Print(IPrintable printable);
 }

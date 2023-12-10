@@ -1,5 +1,5 @@
-﻿namespace Printer.MAUI.Blazor.Test
-{
+﻿namespace Printer.MAUI.Blazor.Test;
+
     public partial class App : Application
     {
         public App()
@@ -9,4 +9,3 @@
             MainPage = new MainPage();
         }
     }
-}

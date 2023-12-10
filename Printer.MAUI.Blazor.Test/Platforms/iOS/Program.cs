@@ -1,9 +1,8 @@
-﻿using ObjCRuntime;
-using UIKit;
+﻿using UIKit;
 
-namespace Printer.MAUI.Blazor.Test.Platforms.iOS
-{
-    public class Program
+namespace Printer.MAUI.Blazor.Test;
+
+public class Program
     {
         // This is the main entry point of the application.
         static void Main(string[] args)
@@ -13,4 +12,3 @@ namespace Printer.MAUI.Blazor.Test.Platforms.iOS
             UIApplication.Main(args, null, typeof(AppDelegate));
         }
     }
-}

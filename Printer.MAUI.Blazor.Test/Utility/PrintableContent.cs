@@ -1,13 +1,8 @@
 ﻿using Printer.Library.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Printer.MAUI.Blazor.Test.Utility
-{
-    public class PrintableContent : IPrintable
+namespace Printer.MAUI.Blazor.Test.Utility;
+
+public class PrintableContent : IPrintable
     {
         private readonly string content;
 
@@ -21,4 +16,3 @@ namespace Printer.MAUI.Blazor.Test.Utility
             return content;
         }
     }
-}

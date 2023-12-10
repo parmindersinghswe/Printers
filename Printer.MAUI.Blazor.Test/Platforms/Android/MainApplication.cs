@@ -1,8 +1,8 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Printer.MAUI.Blazor.Test
-{
+namespace Printer.MAUI.Blazor.Test;
+
     [Application]
     public class MainApplication : MauiApplication
     {
@@ -13,4 +13,3 @@ namespace Printer.MAUI.Blazor.Test
 
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
-}

@@ -1,7 +1,6 @@
-﻿namespace Printer.Library.Interfaces
+﻿namespace Printer.Library.Interfaces;
+
+internal interface INetworkPrinter : IPrinter
 {
-    internal interface INetworkPrinter : IPrinter
-    {
-        void ResetNetworkStream();
-    }
+    void ResetNetworkStream();
 }
