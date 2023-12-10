@@ -16,6 +16,7 @@ namespace Printer.MAUI.Blazor.Test;
 
             builder.Services.AddMauiBlazorWebView();
 
+
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
